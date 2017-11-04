@@ -91,8 +91,8 @@ contract TKCToken is StandardToken {
     string public version = 'H1.0';       //human 0.1 standard. Just an arbitrary versioning scheme.
 
     function TKCToken() {
-        balances[msg.sender] = 260000000000000;
-        totalSupply = 260000000000000;
+        balances[msg.sender] = 280000000000000;
+        totalSupply = 280000000000000;
         name = "TKC";
         decimals = 6;
         symbol = "TKC";
