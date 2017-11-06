@@ -194,7 +194,6 @@ contract TKCToken is StandardToken {
      * Transfer bounty to target address from bounty pool
      */
 	function sendBounty(address _to, uint256 _value) onlyOwner() {
-        bounty = safeSub(bounty, _value);
         balances[_to] = safeAdd(balances[_to], _value);
         // /* Emit log events */
         Transfer(owner, _to, _value);
