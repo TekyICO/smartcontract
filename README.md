@@ -1,2 +1,2 @@
 # smartcontract
-ERC20 smart contract for Teky crowdfunding
+Smart contract - Teky ICO / The world’s 1st ecommerce token
