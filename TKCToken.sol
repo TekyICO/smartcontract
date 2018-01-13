@@ -78,7 +78,7 @@ contract StandardToken is Token {
     uint256 public totalSupply;
 }
 
-contract TKCToken is StandardToken {
+contract MEKToken is StandardToken {
 
     function () {
         //if ether is sent to this address, send it back.
@@ -90,7 +90,7 @@ contract TKCToken is StandardToken {
     string public symbol;                 
     string public version = 'H1.0';       
 
-    function TKCToken() {
+    function MEKToken() {
         balances[msg.sender] = 280000000000000;
         totalSupply = 280000000000000;
         name = "MEK";
